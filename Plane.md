@@ -20,3 +20,5 @@
 3. decide to building using mobile first approach
 
 ## start coding
+
+2. check what the common component between pages
