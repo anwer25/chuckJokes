@@ -1,16 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// @ts-ignore
+import { QueryClient, QueryClientProvider } from 'react-query';
 import App from './App';
 import './assets/scss/style.scss';
 // eslint-disable-next-line import/extensions
 import reportWebVitals from './reportWebVitals';
+
+const queryCLient = new QueryClient();
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
 );
 root.render(
 	<React.StrictMode>
-		<App />
+		<QueryClientProvider client={queryCLient}>
+			<App />
+		</QueryClientProvider>
 	</React.StrictMode>
 );
 

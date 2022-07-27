@@ -1,8 +1,8 @@
 import React from 'react';
-
+import GlobalRoute from './routes';
 
 function App() {
-	return <div className="App" />;
+	return <GlobalRoute />;
 }
 
 export default App;
