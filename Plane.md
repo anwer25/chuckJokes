@@ -9,4 +9,14 @@
 ## UI Planing
 
 1. check number of pages
-2. check what the common component between pages
+3. identifying app components
+3. check what the common component between pages
+
+
+## UI styling
+
+1. add color variables
+2. decide to using SMACSS approach
+3. decide to building using mobile first approach
+
+## start coding
