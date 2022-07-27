@@ -1,4 +1,5 @@
 # Plane
+
 ## Standard configuration
 
 1. crate react app using yarn create react-app
@@ -9,9 +10,8 @@
 ## UI Planing
 
 1. check number of pages
-3. identifying app components
+2. identifying app components
 3. check what the common component between pages
-
 
 ## UI styling
 
