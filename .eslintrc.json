@@ -21,6 +21,7 @@
 				"tsx": "never"
 			}
 		],
-        "import/no-unresolved":0
+		"import/no-unresolved": 0,
+		"react/function-component-definition": 0
 	}
 }
