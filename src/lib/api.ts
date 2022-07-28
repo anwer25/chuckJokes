@@ -3,7 +3,10 @@ import axios, { Axios } from 'axios';
 const instance: Axios = axios.create({
 	baseURL: 'https://api.chucknorris.io/jokes/',
 });
-
+/**
+ * @description api end point call
+ * @returns JSON DATA
+ */
 const getRandom = async () => {
 	const result = await instance.get('random');
 	return result;
